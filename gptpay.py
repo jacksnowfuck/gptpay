@@ -47,7 +47,7 @@ def calculate():
         messagebox.showerror("非法输入", "请确保提问和回答字符框及汇率框中填入有效数字。")
 
 root = tk.Tk()
-root.title("ChatGPT API费用计算器")
+root.title("ChatGPT API费用计算器    ___________by  t.z  " + str(datetime.now().date()))
 
 description_label = tk.Label(root, text="此计算程序为粗算，主要用于ChatGPT 4.0 API的费用计算。")
 description_label.grid(row=0, column=0, columnspan=4, padx=10, pady=20)
